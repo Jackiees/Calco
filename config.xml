@@ -16,9 +16,11 @@
   <preference name="FadeSplashScreenDuration" value="2000"/>
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
+  <preference name="AndroidPersistentFileLocation" value="Compatibility"/>
   <!-- plugin for statusbar -->
   <preference name="StatusBarOverlaysWebView" value="true" />
-  <preference name="StatusBarBackgroundColor" value="#202020" />
+  <preference name="StatusBarBackgroundColor" value="#0000FF" />
+  <!-- <preference name="StatusBarBackgroundColor" value="#202020" /> -->
 
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>

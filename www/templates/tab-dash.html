@@ -1,0 +1,47 @@
+<ion-view view-title="Dashboard">
+  <ion-content scroll="false">
+
+  <div class="answer">
+    {{answer | number}}
+  </div>
+  <div class="button this_button">&#xB1;</div>
+  <div class="button this_button" ng-click="percentage()">%</div>
+  <div class="button this_button symbol" style="padding-top:33px;">&#xF7;</div>
+  <div class="button this_button symbol"><span class="ion-ios-close-empty"></span></div>
+
+  <div class="button this_num" ng-click="input(7)">7</div>
+  <div class="button this_num" ng-click="input(8)">8</div>
+  <div class="button this_num" ng-click="input(9)">9</div>
+  <div class="button this_button symbol" style="padding-top:33px;">-</div>
+
+  <div class="button this_num" ng-click="input(4)">4</div>
+  <div class="button this_num" ng-click="input(5)">5</div>
+  <div class="button this_num" ng-click="input(6)">6</div>
+  <div class="button this_button symbol" style="padding-top:33px;border-bottom:0px;" ng-click="add()">+</div>
+
+  <div class="button this_num" ng-click="input(1)">1</div>
+  <div class="button this_num" ng-click="input(2)">2</div>
+  <div class="button this_num" ng-click="input(3)">3</div>
+  <div class="this_button orange" style="border-bottom:1px solid #EC5114;" ng-click="outcome()"></div>
+
+  <div class="button this_num">0</div>
+  <div class="button this_num">.</div>
+  <div class="button this_num" ng-click="erase()">AC</div>
+  <div class="this_button orange symbol" style="border-top:1px solid #EC5114;" ng-click="outcome()">=</div>
+  <!-- <ion-content class="padding">
+    <h2>Welcome to Ionic</h2>
+    <p>
+    This is the Ionic starter for tabs-based apps. For other starters and ready-made templates, check out the <a href="http://market.ionic.io/starters" target="_blank">Ionic Market</a>.
+    </p>
+    <p>
+      To edit the content of each tab, edit the corresponding template file in <code>www/templates/</code>. This template is <code>www/templates/tab-dash.html</code>
+    </p>
+    <p>
+    If you need help with your app, join the Ionic Community on the <a href="http://forum.ionicframework.com" target="_blank">Ionic Forum</a>. Make sure to <a href="http://twitter.com/ionicframework" target="_blank">follow us</a> on Twitter to get important updates and announcements for Ionic developers.
+    </p>
+    <p>
+      For help sending push notifications, join the <a href="https://apps.ionic.io/signup" target="_blank">Ionic Platform</a> and check out <a href="http://docs.ionic.io/docs/push-overview" target="_blank">Ionic Push</a>. We also have other services available.
+    </p>
+  </ion-content> -->
+  </ion-content>
+</ion-view>

@@ -1,0 +1,107 @@
+/* Empty. Add your own CSS if you like */
+
+ion-nav-view {
+  /*background-color: #202020;*/
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100;
+}
+
+.answer {
+  background-color: #202020;
+  height: 212px;
+  width: 900px;
+  display: table-cell;
+  vertical-align: bottom;
+  padding: 10px;
+  padding-bottom: 30px;
+  color:white;
+  font-size: 68px;
+  bottom: 0;
+  text-align: right;
+}
+
+.this_num {
+  width: 25%;
+  height: 91.75px;
+  color: white;
+  float:left;
+  background-color: #2A2A2C;
+  border: 1px solid #202020;
+  border-left:0px;
+  border-bottom: 0px;
+    /*border-top:0px;*/
+  text-align: center;
+  padding-top: 35px;
+  font-size: 30px;
+  /*font-weight: 100;*/
+}
+
+.this_button {
+  width: 25%;
+  height: 91.75px;
+  color: white;
+  float:left;
+  background-color: #3D3D3D;
+  border: 1px solid #202020;
+  border-left:0px;
+  border-bottom: 0px;
+  /*border-top:0px;*/
+  text-align: center;
+  padding-top: 35px;
+  font-size: 30px;
+  /*font-weight: 100;*/
+}
+
+.symbol {
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.orange {
+  background-color: #EC5114;
+}
+
+.button {
+  line-height: inherit;
+  border-radius: 0px;
+}
+
+.button:hover {
+  color: white;
+}
+
+.button.active {
+  border: 0px;
+  border-color: none;
+  color: white;
+  /*background-color: #202020;*/
+}
+
+.button.activated {
+  /*border: 0px;*/
+  border-color: #202020;
+  background-color: #202020;
+}
+
+.secret {
+  color:white;
+  margin-top: 10px;
+  padding: 40px;
+  padding-top: 90px;
+  font-size: 40px;
+  line-height: 50px;
+  height: 100%;
+  background-color: #202020;
+}
+
+.back {
+  margin-top:20px;
+}
+
+/*.this_num:active {
+    background-color: red;
+}
+
+.this_num:hover {
+  background-color: red;
+}*/
